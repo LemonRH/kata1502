@@ -29,7 +29,7 @@ function buscadorNumerosManual(){
         }
 
     }
-    if($dentroNumero=TRUE){
+    if($dentroNumero==TRUE){
     echo "La cifra ", $numComprobar2," existe en el numero ", $numInicial2;
     }else{
         echo "La cifra ", $numComprobar2," NO existe en el numero ", $numInicial2;
